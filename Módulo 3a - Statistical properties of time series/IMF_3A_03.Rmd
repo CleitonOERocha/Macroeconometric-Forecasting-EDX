@@ -9,7 +9,7 @@ output:
 ## Module 3A: Statistical Properties of Time Series Data
 ### Estimation with Stationary Time Series and Model Selection
 
-**Author**: Miha Trošt   
+**Author**: Miha Tro?t   
 **Date**: `r format(Sys.Date(), "%d-%m-%Y")`
 
 ```{r global_options, include=FALSE}
@@ -44,12 +44,9 @@ library(broom)
 
 ```{r}
 
-my_wd <- 
-  "C:/Users/Miha/Documents/GitHub/IMF_Macro_Forecasting_R/002_module_3a_Statistical_properties_of_time_series/Module3_data/"
+setwd("C:\\Users\\pc\\Desktop\\Macroeconometric-Forecasting-EDX\\MÃ³dulo 3a - Statistical properties of time series\\Arquivos csv's")
 
-m3_data <- 
-  read.csv(str_c(my_wd, "module3_data_Identifying_ARMA.csv"), 
-           sep = ",")
+m3_data <- read.csv("module3_data_Identifying_ARMA.csv")
 
 # my_df <- 
 #   read.csv(str_c(my_wd, "module3_data_PE_Ratios.csv"), 
@@ -164,7 +161,7 @@ Specification:
 
 Options:
 
-* Model Selection—Akaike Information Criterion
+* Model Selection?Akaike Information Criterion
 * Eviews: Check the boxes for ARMA Criteria Table, ARMA Criteria Graph, Equation Output Table.
 
 #### QUESTION 3.30
